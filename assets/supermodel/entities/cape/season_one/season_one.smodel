@@ -5,6 +5,6 @@
   },
   "properties": {
     "names.^": "PalmMC",
-    "nbt.^.equipment.chest.components": "raw:regex:.*\"minecraft:custom_name\".*Supporter.*"
+    "nbt.^.equipment.chest.components": "raw:regex:.*\"minecraft:custom_name\".*SeasonOne.*"
   }
 }

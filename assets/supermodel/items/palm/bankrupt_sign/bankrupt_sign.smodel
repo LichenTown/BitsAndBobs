@@ -1,0 +1,10 @@
+{
+  "types": [
+    "paper"
+  ],
+  "model": "bankrupt_sign",
+  "textures": {
+    "0": "bankrupt_sign",
+    "1": "bankrupt_fancy_text"
+  }
+}

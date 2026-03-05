@@ -1,0 +1,8 @@
+{
+  "type": "paper",
+  "model": "potted_plant4",
+  "textures": {
+    "0": "pot",
+    "1": "plant"
+  }
+}

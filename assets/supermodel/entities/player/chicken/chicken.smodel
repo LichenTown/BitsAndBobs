@@ -1,15 +1,18 @@
 {
   "models": {
-    "player": "chicken",
-    "player_slim": "chicken",
     "player_cape": "hide_cape",
-    "helmet": "hide_helmet",
-    "chestplate": "hide_chestplate",
-    "leggings": "hide_leggings",
-    "boots": "hide_boots"
+    "player_slim": "chicken",
+    "player_slim_helmet": "hide_helmet",
+    "player_slim_chestplate": "hide_chestplate",
+    "player_slim_leggings": "hide_leggings",
+    "player_slim_boots": "hide_boots",
+    "player": "chicken",
+    "player_helmet": "hide_helmet",
+    "player_chestplate": "hide_chestplate",
+    "player_leggings": "hide_leggings",
+    "player_boots": "hide_boots"
   },
   "properties": {
-    "names.^": "PalmMC",
     "nbt.^.equipment.head.components": "raw:regex:.*\"minecraft:custom_name\".*Chicken.*"
   }
 }

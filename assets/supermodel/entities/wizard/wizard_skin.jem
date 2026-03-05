@@ -1,0 +1,270 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [64, 64],
+	"texture": "wizard_skin.png",
+	"models": [
+		{
+			"part": "cloak",
+			"id": "cloak",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "jacket",
+			"id": "jacket",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4, 12, -2, 8, 12, 4], "textureOffset": [16, 32], "sizeAdd": 0.25}
+			]
+		},
+		{
+			"part": "right_arm",
+			"id": "right_arm",
+			"invertAxis": "xy",
+			"translate": [-5, -22, 0],
+			"boxes": [
+				{"coordinates": [4, 12, -2, 3, 12, 4], "textureOffset": [40, 16]}
+			]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [-1.9, -12, 0],
+			"boxes": [
+				{"coordinates": [-0.1, 0, -2, 4, 12, 4], "textureOffset": [0, 16]}
+			]
+		},
+		{
+			"part": "headwear",
+			"id": "headwear",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4, 24, -4, 8, 8, 8], "textureOffset": [32, 0], "sizeAdd": 0.5}
+			]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4, 12, -2, 8, 12, 4], "textureOffset": [16, 16]}
+			],
+			"submodels": [
+				{
+					"id": "potion_belt",
+					"invertAxis": "xy",
+					"translate": [-4.43333, 13.13333, 0.03333],
+					"texture": "potion_belt.png",
+					"textureSize": [8, 8],
+					"boxes": [
+						{
+							"coordinates": [-0.26667, -1.83333, -1.03333, 2, 1, 2],
+							"uvNorth": [7, 1, 8, 2],
+							"uvEast": [7, 0, 8, 1],
+							"uvSouth": [7, 1, 8, 2],
+							"uvWest": [7, 0, 8, 1],
+							"uvUp": [8, 1, 7, 0],
+							"uvDown": [8, 0, 7, 1]
+						}
+					],
+					"submodels": [
+						{
+							"id": "potion",
+							"invertAxis": "xy",
+							"translate": [-0.36667, -2.33333, 0.86667],
+							"rotate": [-10, 0, 0],
+							"boxes": [
+								{
+									"coordinates": [-1, -2.6, -1, 2, 3, 2],
+									"uvNorth": [0, 5, 2, 8],
+									"uvEast": [0, 5, 2, 8],
+									"uvSouth": [0, 5, 2, 8],
+									"uvWest": [0, 5, 2, 8],
+									"uvUp": [4, 8, 2, 6],
+									"uvDown": [4, 6, 2, 8],
+									"sizeAdd": -0.25
+								},
+								{
+									"coordinates": [-0.5, -2.1, -0.5, 1, 1, 1],
+									"uvNorth": [4, 6, 6, 8],
+									"uvEast": [4, 6, 6, 8],
+									"uvSouth": [4, 6, 6, 8],
+									"uvWest": [4, 6, 6, 8],
+									"uvUp": [4, 6, 6, 8],
+									"uvDown": [4, 6, 6, 8],
+									"sizeAdd": 0.1
+								},
+								{
+									"coordinates": [-1, -0.1, -1, 2, 1, 2],
+									"uvNorth": [0, 2, 2, 3],
+									"uvEast": [0, 3, 2, 4],
+									"uvSouth": [0, 2, 2, 3],
+									"uvWest": [0, 3, 2, 4],
+									"uvUp": [2, 2, 0, 0],
+									"uvDown": [2, 0, 0, 2],
+									"sizeAdd": -0.25
+								}
+							]
+						},
+						{
+							"id": "potion2",
+							"invertAxis": "xy",
+							"translate": [-0.36667, -2.33333, -0.83333],
+							"rotate": [-10, 0, 0],
+							"boxes": [
+								{
+									"coordinates": [-1, -2.6, -1, 2, 3, 2],
+									"uvNorth": [0, 5, 2, 8],
+									"uvEast": [0, 5, 2, 8],
+									"uvSouth": [0, 5, 2, 8],
+									"uvWest": [0, 5, 2, 8],
+									"uvUp": [4, 8, 2, 6],
+									"uvDown": [4, 6, 2, 8],
+									"sizeAdd": -0.25
+								},
+								{
+									"coordinates": [-0.5, -2.1, -0.5, 1, 1, 1],
+									"uvNorth": [6, 6, 8, 8],
+									"uvEast": [6, 6, 8, 8],
+									"uvSouth": [6, 6, 8, 8],
+									"uvWest": [6, 6, 8, 8],
+									"uvUp": [6, 6, 8, 8],
+									"uvDown": [6, 6, 8, 8],
+									"sizeAdd": 0.1
+								},
+								{
+									"coordinates": [-1, -0.1, -1, 2, 1, 2],
+									"uvNorth": [0, 2, 2, 3],
+									"uvEast": [0, 3, 2, 4],
+									"uvSouth": [0, 2, 2, 3],
+									"uvWest": [0, 3, 2, 4],
+									"uvUp": [2, 2, 0, 0],
+									"uvDown": [2, 0, 0, 2],
+									"sizeAdd": -0.25
+								}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"potion_belt.visible": "!nbt(equipment.chest.id,iregex:.*chestplate)",
+					"potion_belt.rx": "body.rx+limb_speed*0.5-body.ry/2"
+				}
+			]
+		},
+		{
+			"part": "right_sleeve",
+			"id": "right_sleeve",
+			"invertAxis": "xy",
+			"translate": [-5, -22, 0],
+			"boxes": [
+				{"coordinates": [4, 12, -2, 3, 12, 4], "textureOffset": [40, 32], "sizeAdd": 0.25}
+			]
+		},
+		{
+			"part": "left_arm",
+			"id": "left_arm",
+			"invertAxis": "xy",
+			"translate": [5, -22, 0],
+			"boxes": [
+				{"coordinates": [-7, 12, -2, 3, 12, 4], "textureOffset": [32, 48]}
+			]
+		},
+		{
+			"part": "ear",
+			"id": "ear",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"translate": [1.9, -12, 0],
+			"boxes": [
+				{"coordinates": [-3.9, 0, -2, 4, 12, 4], "textureOffset": [16, 48]}
+			]
+		},
+		{
+			"part": "right_pants",
+			"id": "right_pants",
+			"invertAxis": "xy",
+			"translate": [-1.9, -12, 0],
+			"boxes": [
+				{"coordinates": [-0.1, 0, -2, 4, 12, 4], "textureOffset": [0, 32], "sizeAdd": 0.25}
+			]
+		},
+		{
+			"part": "left_pants",
+			"id": "left_pants",
+			"invertAxis": "xy",
+			"translate": [1.9, -12, 0],
+			"boxes": [
+				{"coordinates": [-3.9, 0, -2, 4, 12, 4], "textureOffset": [0, 48], "sizeAdd": 0.25}
+			]
+		},
+		{
+			"part": "left_sleeve",
+			"id": "left_sleeve",
+			"invertAxis": "xy",
+			"translate": [5, -22, 0],
+			"boxes": [
+				{"coordinates": [-7, 12, -2, 3, 12, 4], "textureOffset": [48, 48], "sizeAdd": 0.25}
+			]
+		},
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4, 24, -4, 8, 8, 8], "textureOffset": [0, 0]}
+			],
+			"submodels": [
+				{
+					"id": "hair",
+					"invertAxis": "xy",
+					"translate": [0, 19.5, 0],
+					"texture": "wizard_hair.png",
+					"textureSize": [32, 32],
+					"boxes": [
+						{
+							"coordinates": [-4.5, 5.9, -4, 9, 7, 8],
+							"uvNorth": [23, 14, 32, 21],
+							"uvEast": [24, 21, 32, 28],
+							"uvSouth": [23, 7, 32, 14],
+							"uvWest": [24, 0, 32, 7],
+							"uvUp": [22, 8, 13, 0],
+							"uvDown": [1, 14, 0, 15],
+							"sizeAdd": 0.1
+						}
+					]
+				},
+				{
+					"id": "mustache",
+					"invertAxis": "xy",
+					"translate": [0, 19.5, 0],
+					"texture": "wizard_hair.png",
+					"textureSize": [32, 32],
+					"boxes": [
+						{
+							"coordinates": [-3, 5.4, -4.1, 6, 2, 0],
+							"uvNorth": [0, 0, 6, 2],
+							"uvEast": [0, 3, 1, 4],
+							"uvSouth": [0, 3, 1, 4],
+							"uvWest": [0, 3, 1, 4],
+							"uvUp": [0, 3, 1, 4],
+							"uvDown": [0, 3, 1, 4]
+						}
+					]
+				}
+			]
+		}
+	]
+}

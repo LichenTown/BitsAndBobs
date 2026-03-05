@@ -1,0 +1,29 @@
+{
+  "types": [
+    "spyglass"
+  ],
+  "model": "telescope",
+  "textures": {
+    "0": "telescope",
+    "1": "telescope_stand"
+  },
+  "definition": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "$model"
+        },
+        "when": [
+          "fixed"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "palm:item/telescope/telescope_in_hand"
+    },
+    "property": "minecraft:display_context"
+  }
+}

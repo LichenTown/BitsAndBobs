@@ -1,0 +1,37 @@
+{
+  "types": [
+    "paper"
+  ],
+  "model": "coin",
+  "models": [
+    "coin_stand"
+  ],
+  "textures": {
+    "0": "palm:item/commemorative_coin/coin",
+    "1": "palm:item/commemorative_coin/velvet_pillow",
+    "2": "palm:item/commemorative_coin/season_two",
+    "3": "palm:item/commemorative_coin/stand",
+    "4": "overlay",
+    "5": "name_plaque"
+  },
+  "definition": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "$folder/coin_stand"
+        },
+        "when": [
+          "fixed",
+          "head"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "$model"
+    },
+    "property": "minecraft:display_context"
+  }
+}

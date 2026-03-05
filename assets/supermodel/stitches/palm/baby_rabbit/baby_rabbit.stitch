@@ -1,0 +1,2228 @@
+﻿{
+    "types": [
+        "carved_pumpkin",
+        "totem_of_undying"
+    ],
+    "base": "baby_rabbit",
+    "variants": [
+        "baby_rabbit",
+        "baby_rabbit_gray"
+    ],
+    "templates": [
+        {
+            "model": "baby_rabbit",
+            "animation": {
+                "frametime": 2,
+                "width": 64,
+                "height": 32
+            },
+            "mappings": [
+                {
+                    "srcX": 0,
+                    "srcY": 0,
+                    "width": 6,
+                    "height": 10,
+                    "destX": 0,
+                    "destY": 0
+                },
+                {
+                    "srcX": 0,
+                    "srcY": 0,
+                    "width": 6,
+                    "height": 10,
+                    "destX": 6,
+                    "destY": 0
+                },
+                {
+                    "srcX": 0,
+                    "srcY": 0,
+                    "width": 6,
+                    "height": 10,
+                    "destX": 12,
+                    "destY": 0
+                },
+                {
+                    "srcX": 0,
+                    "srcY": 0,
+                    "width": 6,
+                    "height": 10,
+                    "destX": 18,
+                    "destY": 0
+                },
+                {
+                    "srcX": 0,
+                    "srcY": 10,
+                    "width": 12,
+                    "height": 6,
+                    "destX": 0,
+                    "destY": 10
+                },
+                {
+                    "srcX": 0,
+                    "srcY": 10,
+                    "width": 12,
+                    "height": 6,
+                    "destX": 12,
+                    "destY": 10
+                },
+                {
+                    "srcX": 0,
+                    "srcY": 10,
+                    "width": 12,
+                    "height": 6,
+                    "destX": 24,
+                    "destY": 10
+                },
+                {
+                    "srcX": 0,
+                    "srcY": 16,
+                    "width": 3,
+                    "height": 2,
+                    "destX": 0,
+                    "destY": 16
+                },
+                {
+                    "srcX": 0,
+                    "srcY": 16,
+                    "width": 3,
+                    "height": 2,
+                    "destX": 2,
+                    "destY": 16
+                },
+                {
+                    "srcX": 0,
+                    "srcY": 16,
+                    "width": 3,
+                    "height": 2,
+                    "destX": 4,
+                    "destY": 16
+                },
+                {
+                    "srcX": 5,
+                    "srcY": 16,
+                    "width": 8,
+                    "height": 2,
+                    "destX": 5,
+                    "destY": 16
+                },
+                {
+                    "srcX": 0,
+                    "srcY": 18,
+                    "width": 23,
+                    "height": 14,
+                    "destX": 0,
+                    "destY": 18
+                },
+                {
+                    "srcX": 27,
+                    "srcY": 16,
+                    "width": 19,
+                    "height": 8,
+                    "destX": 46,
+                    "destY": 24
+                },
+                {
+                    "srcX": 27,
+                    "srcY": 16,
+                    "width": 19,
+                    "height": 8,
+                    "destX": 27,
+                    "destY": 24
+                },
+                {
+                    "srcX": 27,
+                    "srcY": 16,
+                    "width": 19,
+                    "height": 8,
+                    "destX": 46,
+                    "destY": 16
+                },
+                {
+                    "srcX": 27,
+                    "srcY": 16,
+                    "width": 19,
+                    "height": 8,
+                    "destX": 27,
+                    "destY": 16
+                }
+            ],
+            "frames": [
+                {
+                    "name": "Frame 1",
+                    "groups": [
+                        {
+                            "name": "Group",
+                            "regions": [
+                                {
+                                    "xStart": 6,
+                                    "zStart": 0,
+                                    "xEnd": 24,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 2,
+                                    "zStart": 16,
+                                    "xEnd": 11,
+                                    "zEnd": 17
+                                },
+                                {
+                                    "xStart": 45,
+                                    "zStart": 16,
+                                    "xEnd": 63,
+                                    "zEnd": 31
+                                },
+                                {
+                                    "xStart": 27,
+                                    "zStart": 24,
+                                    "xEnd": 44,
+                                    "zEnd": 31
+                                }
+                            ]
+                        },
+                        {
+                            "name": "tail1",
+                            "regions": [
+                                {
+                                    "xStart": 12,
+                                    "zStart": 10,
+                                    "xEnd": 35,
+                                    "zEnd": 15
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Frame 2",
+                    "groups": [
+                        {
+                            "name": "Group",
+                            "regions": [
+                                {
+                                    "xStart": 0,
+                                    "zStart": 0,
+                                    "xEnd": 5,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 12,
+                                    "zStart": 0,
+                                    "xEnd": 24,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 4,
+                                    "zStart": 16,
+                                    "xEnd": 11,
+                                    "zEnd": 17
+                                },
+                                {
+                                    "xStart": 0,
+                                    "zStart": 16,
+                                    "xEnd": 1,
+                                    "zEnd": 17
+                                },
+                                {
+                                    "xStart": 45,
+                                    "zStart": 16,
+                                    "xEnd": 63,
+                                    "zEnd": 31
+                                },
+                                {
+                                    "xStart": 27,
+                                    "zStart": 16,
+                                    "xEnd": 44,
+                                    "zEnd": 23
+                                }
+                            ]
+                        },
+                        {
+                            "name": "tail2",
+                            "regions": [
+                                {
+                                    "xStart": 0,
+                                    "zStart": 10,
+                                    "xEnd": 11,
+                                    "zEnd": 15
+                                },
+                                {
+                                    "xStart": 24,
+                                    "zStart": 10,
+                                    "xEnd": 35,
+                                    "zEnd": 15
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Frame 3",
+                    "groups": [
+                        {
+                            "name": "Group",
+                            "regions": [
+                                {
+                                    "xStart": 0,
+                                    "zStart": 0,
+                                    "xEnd": 11,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 18,
+                                    "zStart": 0,
+                                    "xEnd": 23,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 6,
+                                    "zStart": 16,
+                                    "xEnd": 11,
+                                    "zEnd": 17
+                                },
+                                {
+                                    "xStart": 0,
+                                    "zStart": 16,
+                                    "xEnd": 3,
+                                    "zEnd": 17
+                                },
+                                {
+                                    "xStart": 45,
+                                    "zStart": 24,
+                                    "xEnd": 63,
+                                    "zEnd": 31
+                                },
+                                {
+                                    "xStart": 27,
+                                    "zStart": 16,
+                                    "xEnd": 44,
+                                    "zEnd": 31
+                                }
+                            ]
+                        },
+                        {
+                            "name": "tail3",
+                            "regions": [
+                                {
+                                    "xStart": 0,
+                                    "zStart": 10,
+                                    "xEnd": 23,
+                                    "zEnd": 15
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Frame 4",
+                    "groups": [
+                        {
+                            "name": "Group",
+                            "regions": [
+                                {
+                                    "xStart": 0,
+                                    "zStart": 0,
+                                    "xEnd": 17,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 0,
+                                    "zStart": 16,
+                                    "xEnd": 5,
+                                    "zEnd": 17
+                                },
+                                {
+                                    "xStart": 45,
+                                    "zStart": 16,
+                                    "xEnd": 63,
+                                    "zEnd": 23
+                                },
+                                {
+                                    "xStart": 27,
+                                    "zStart": 16,
+                                    "xEnd": 44,
+                                    "zEnd": 31
+                                }
+                            ]
+                        },
+                        {
+                            "name": "tail2",
+                            "regions": [
+                                {
+                                    "xStart": 0,
+                                    "zStart": 10,
+                                    "xEnd": 11,
+                                    "zEnd": 15
+                                },
+                                {
+                                    "xStart": 24,
+                                    "zStart": 10,
+                                    "xEnd": 35,
+                                    "zEnd": 15
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Frame 5",
+                    "groups": [
+                        {
+                            "name": "Group",
+                            "regions": [
+                                {
+                                    "xStart": 0,
+                                    "zStart": 0,
+                                    "xEnd": 17,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 0,
+                                    "zStart": 16,
+                                    "xEnd": 5,
+                                    "zEnd": 17
+                                },
+                                {
+                                    "xStart": 45,
+                                    "zStart": 16,
+                                    "xEnd": 63,
+                                    "zEnd": 23
+                                },
+                                {
+                                    "xStart": 27,
+                                    "zStart": 16,
+                                    "xEnd": 44,
+                                    "zEnd": 31
+                                }
+                            ]
+                        },
+                        {
+                            "name": "tail1",
+                            "regions": [
+                                {
+                                    "xStart": 12,
+                                    "zStart": 10,
+                                    "xEnd": 35,
+                                    "zEnd": 15
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Frame 6",
+                    "groups": [
+                        {
+                            "name": "Group",
+                            "regions": [
+                                {
+                                    "xStart": 0,
+                                    "zStart": 0,
+                                    "xEnd": 17,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 0,
+                                    "zStart": 16,
+                                    "xEnd": 5,
+                                    "zEnd": 17
+                                },
+                                {
+                                    "xStart": 45,
+                                    "zStart": 16,
+                                    "xEnd": 63,
+                                    "zEnd": 23
+                                },
+                                {
+                                    "xStart": 27,
+                                    "zStart": 16,
+                                    "xEnd": 44,
+                                    "zEnd": 31
+                                }
+                            ]
+                        },
+                        {
+                            "name": "tail2",
+                            "regions": [
+                                {
+                                    "xStart": 0,
+                                    "zStart": 10,
+                                    "xEnd": 11,
+                                    "zEnd": 15
+                                },
+                                {
+                                    "xStart": 24,
+                                    "zStart": 10,
+                                    "xEnd": 35,
+                                    "zEnd": 15
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Frame 7",
+                    "groups": [
+                        {
+                            "name": "Group",
+                            "regions": [
+                                {
+                                    "xStart": 0,
+                                    "zStart": 0,
+                                    "xEnd": 17,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 0,
+                                    "zStart": 16,
+                                    "xEnd": 5,
+                                    "zEnd": 17
+                                },
+                                {
+                                    "xStart": 45,
+                                    "zStart": 16,
+                                    "xEnd": 63,
+                                    "zEnd": 23
+                                },
+                                {
+                                    "xStart": 27,
+                                    "zStart": 16,
+                                    "xEnd": 44,
+                                    "zEnd": 31
+                                }
+                            ]
+                        },
+                        {
+                            "name": "tail3",
+                            "regions": [
+                                {
+                                    "xStart": 0,
+                                    "zStart": 10,
+                                    "xEnd": 23,
+                                    "zEnd": 15
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Frame 8",
+                    "groups": [
+                        {
+                            "name": "Group",
+                            "regions": [
+                                {
+                                    "xStart": 0,
+                                    "zStart": 0,
+                                    "xEnd": 17,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 0,
+                                    "zStart": 16,
+                                    "xEnd": 5,
+                                    "zEnd": 17
+                                },
+                                {
+                                    "xStart": 45,
+                                    "zStart": 16,
+                                    "xEnd": 63,
+                                    "zEnd": 23
+                                },
+                                {
+                                    "xStart": 27,
+                                    "zStart": 16,
+                                    "xEnd": 44,
+                                    "zEnd": 31
+                                }
+                            ]
+                        },
+                        {
+                            "name": "tail2",
+                            "regions": [
+                                {
+                                    "xStart": 0,
+                                    "zStart": 10,
+                                    "xEnd": 11,
+                                    "zEnd": 15
+                                },
+                                {
+                                    "xStart": 24,
+                                    "zStart": 10,
+                                    "xEnd": 35,
+                                    "zEnd": 15
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Frame 9",
+                    "groups": [
+                        {
+                            "name": "Group",
+                            "regions": [
+                                {
+                                    "xStart": 0,
+                                    "zStart": 0,
+                                    "xEnd": 17,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 0,
+                                    "zStart": 16,
+                                    "xEnd": 5,
+                                    "zEnd": 17
+                                },
+                                {
+                                    "xStart": 45,
+                                    "zStart": 16,
+                                    "xEnd": 63,
+                                    "zEnd": 23
+                                },
+                                {
+                                    "xStart": 27,
+                                    "zStart": 16,
+                                    "xEnd": 44,
+                                    "zEnd": 31
+                                }
+                            ]
+                        },
+                        {
+                            "name": "tail1",
+                            "regions": [
+                                {
+                                    "xStart": 12,
+                                    "zStart": 10,
+                                    "xEnd": 35,
+                                    "zEnd": 15
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Frame 10",
+                    "groups": [
+                        {
+                            "name": "Group",
+                            "regions": [
+                                {
+                                    "xStart": 0,
+                                    "zStart": 0,
+                                    "xEnd": 17,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 0,
+                                    "zStart": 16,
+                                    "xEnd": 5,
+                                    "zEnd": 17
+                                },
+                                {
+                                    "xStart": 45,
+                                    "zStart": 16,
+                                    "xEnd": 63,
+                                    "zEnd": 23
+                                },
+                                {
+                                    "xStart": 27,
+                                    "zStart": 16,
+                                    "xEnd": 44,
+                                    "zEnd": 31
+                                }
+                            ]
+                        },
+                        {
+                            "name": "tail2",
+                            "regions": [
+                                {
+                                    "xStart": 0,
+                                    "zStart": 10,
+                                    "xEnd": 11,
+                                    "zEnd": 15
+                                },
+                                {
+                                    "xStart": 24,
+                                    "zStart": 10,
+                                    "xEnd": 35,
+                                    "zEnd": 15
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Frame 11",
+                    "groups": [
+                        {
+                            "name": "Group",
+                            "regions": [
+                                {
+                                    "xStart": 0,
+                                    "zStart": 0,
+                                    "xEnd": 17,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 0,
+                                    "zStart": 16,
+                                    "xEnd": 5,
+                                    "zEnd": 17
+                                },
+                                {
+                                    "xStart": 45,
+                                    "zStart": 16,
+                                    "xEnd": 63,
+                                    "zEnd": 23
+                                },
+                                {
+                                    "xStart": 27,
+                                    "zStart": 16,
+                                    "xEnd": 44,
+                                    "zEnd": 31
+                                }
+                            ]
+                        },
+                        {
+                            "name": "tail3",
+                            "regions": [
+                                {
+                                    "xStart": 0,
+                                    "zStart": 10,
+                                    "xEnd": 23,
+                                    "zEnd": 15
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Frame 12",
+                    "groups": [
+                        {
+                            "name": "Group",
+                            "regions": [
+                                {
+                                    "xStart": 0,
+                                    "zStart": 0,
+                                    "xEnd": 11,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 18,
+                                    "zStart": 0,
+                                    "xEnd": 23,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 6,
+                                    "zStart": 16,
+                                    "xEnd": 11,
+                                    "zEnd": 17
+                                },
+                                {
+                                    "xStart": 0,
+                                    "zStart": 16,
+                                    "xEnd": 3,
+                                    "zEnd": 17
+                                },
+                                {
+                                    "xStart": 45,
+                                    "zStart": 24,
+                                    "xEnd": 63,
+                                    "zEnd": 31
+                                },
+                                {
+                                    "xStart": 27,
+                                    "zStart": 16,
+                                    "xEnd": 44,
+                                    "zEnd": 31
+                                }
+                            ]
+                        },
+                        {
+                            "name": "tail2",
+                            "regions": [
+                                {
+                                    "xStart": 0,
+                                    "zStart": 10,
+                                    "xEnd": 11,
+                                    "zEnd": 15
+                                },
+                                {
+                                    "xStart": 24,
+                                    "zStart": 10,
+                                    "xEnd": 35,
+                                    "zEnd": 15
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Frame 13",
+                    "groups": [
+                        {
+                            "name": "Group",
+                            "regions": [
+                                {
+                                    "xStart": 0,
+                                    "zStart": 0,
+                                    "xEnd": 5,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 12,
+                                    "zStart": 0,
+                                    "xEnd": 24,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 4,
+                                    "zStart": 16,
+                                    "xEnd": 11,
+                                    "zEnd": 17
+                                },
+                                {
+                                    "xStart": 0,
+                                    "zStart": 16,
+                                    "xEnd": 1,
+                                    "zEnd": 17
+                                },
+                                {
+                                    "xStart": 45,
+                                    "zStart": 16,
+                                    "xEnd": 63,
+                                    "zEnd": 31
+                                },
+                                {
+                                    "xStart": 27,
+                                    "zStart": 16,
+                                    "xEnd": 44,
+                                    "zEnd": 23
+                                }
+                            ]
+                        },
+                        {
+                            "name": "tail1",
+                            "regions": [
+                                {
+                                    "xStart": 12,
+                                    "zStart": 10,
+                                    "xEnd": 35,
+                                    "zEnd": 15
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Frame 14",
+                    "groups": [
+                        {
+                            "name": "Group",
+                            "regions": [
+                                {
+                                    "xStart": 6,
+                                    "zStart": 0,
+                                    "xEnd": 24,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 2,
+                                    "zStart": 16,
+                                    "xEnd": 11,
+                                    "zEnd": 17
+                                },
+                                {
+                                    "xStart": 45,
+                                    "zStart": 16,
+                                    "xEnd": 63,
+                                    "zEnd": 31
+                                },
+                                {
+                                    "xStart": 27,
+                                    "zStart": 24,
+                                    "xEnd": 44,
+                                    "zEnd": 31
+                                }
+                            ]
+                        },
+                        {
+                            "name": "tail2",
+                            "regions": [
+                                {
+                                    "xStart": 0,
+                                    "zStart": 10,
+                                    "xEnd": 11,
+                                    "zEnd": 15
+                                },
+                                {
+                                    "xStart": 24,
+                                    "zStart": 10,
+                                    "xEnd": 35,
+                                    "zEnd": 15
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Frame 15",
+                    "groups": [
+                        {
+                            "name": "Group",
+                            "regions": [
+                                {
+                                    "xStart": 6,
+                                    "zStart": 0,
+                                    "xEnd": 24,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 2,
+                                    "zStart": 16,
+                                    "xEnd": 11,
+                                    "zEnd": 17
+                                },
+                                {
+                                    "xStart": 45,
+                                    "zStart": 16,
+                                    "xEnd": 63,
+                                    "zEnd": 31
+                                },
+                                {
+                                    "xStart": 27,
+                                    "zStart": 24,
+                                    "xEnd": 44,
+                                    "zEnd": 31
+                                }
+                            ]
+                        },
+                        {
+                            "name": "tail3",
+                            "regions": [
+                                {
+                                    "xStart": 0,
+                                    "zStart": 10,
+                                    "xEnd": 23,
+                                    "zEnd": 15
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Frame 16",
+                    "groups": [
+                        {
+                            "name": "Group",
+                            "regions": [
+                                {
+                                    "xStart": 6,
+                                    "zStart": 0,
+                                    "xEnd": 24,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 2,
+                                    "zStart": 16,
+                                    "xEnd": 11,
+                                    "zEnd": 17
+                                },
+                                {
+                                    "xStart": 45,
+                                    "zStart": 16,
+                                    "xEnd": 63,
+                                    "zEnd": 31
+                                },
+                                {
+                                    "xStart": 27,
+                                    "zStart": 24,
+                                    "xEnd": 44,
+                                    "zEnd": 31
+                                }
+                            ]
+                        },
+                        {
+                            "name": "tail2",
+                            "regions": [
+                                {
+                                    "xStart": 0,
+                                    "zStart": 10,
+                                    "xEnd": 11,
+                                    "zEnd": 15
+                                },
+                                {
+                                    "xStart": 24,
+                                    "zStart": 10,
+                                    "xEnd": 35,
+                                    "zEnd": 15
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Frame 17",
+                    "groups": [
+                        {
+                            "name": "Group",
+                            "regions": [
+                                {
+                                    "xStart": 6,
+                                    "zStart": 0,
+                                    "xEnd": 24,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 2,
+                                    "zStart": 16,
+                                    "xEnd": 11,
+                                    "zEnd": 17
+                                },
+                                {
+                                    "xStart": 45,
+                                    "zStart": 16,
+                                    "xEnd": 63,
+                                    "zEnd": 31
+                                },
+                                {
+                                    "xStart": 27,
+                                    "zStart": 24,
+                                    "xEnd": 44,
+                                    "zEnd": 31
+                                }
+                            ]
+                        },
+                        {
+                            "name": "tail1",
+                            "regions": [
+                                {
+                                    "xStart": 12,
+                                    "zStart": 10,
+                                    "xEnd": 35,
+                                    "zEnd": 15
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Frame 18",
+                    "groups": [
+                        {
+                            "name": "Group",
+                            "regions": [
+                                {
+                                    "xStart": 6,
+                                    "zStart": 0,
+                                    "xEnd": 24,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 2,
+                                    "zStart": 16,
+                                    "xEnd": 11,
+                                    "zEnd": 17
+                                },
+                                {
+                                    "xStart": 45,
+                                    "zStart": 16,
+                                    "xEnd": 63,
+                                    "zEnd": 31
+                                },
+                                {
+                                    "xStart": 27,
+                                    "zStart": 24,
+                                    "xEnd": 44,
+                                    "zEnd": 31
+                                }
+                            ]
+                        },
+                        {
+                            "name": "tail2",
+                            "regions": [
+                                {
+                                    "xStart": 0,
+                                    "zStart": 10,
+                                    "xEnd": 11,
+                                    "zEnd": 15
+                                },
+                                {
+                                    "xStart": 24,
+                                    "zStart": 10,
+                                    "xEnd": 35,
+                                    "zEnd": 15
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Frame 19",
+                    "groups": [
+                        {
+                            "name": "Group",
+                            "regions": [
+                                {
+                                    "xStart": 6,
+                                    "zStart": 0,
+                                    "xEnd": 24,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 2,
+                                    "zStart": 16,
+                                    "xEnd": 11,
+                                    "zEnd": 17
+                                },
+                                {
+                                    "xStart": 45,
+                                    "zStart": 16,
+                                    "xEnd": 63,
+                                    "zEnd": 31
+                                },
+                                {
+                                    "xStart": 27,
+                                    "zStart": 24,
+                                    "xEnd": 44,
+                                    "zEnd": 31
+                                }
+                            ]
+                        },
+                        {
+                            "name": "tail3",
+                            "regions": [
+                                {
+                                    "xStart": 0,
+                                    "zStart": 10,
+                                    "xEnd": 23,
+                                    "zEnd": 15
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Frame 20",
+                    "groups": [
+                        {
+                            "name": "Group",
+                            "regions": [
+                                {
+                                    "xStart": 6,
+                                    "zStart": 0,
+                                    "xEnd": 24,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 2,
+                                    "zStart": 16,
+                                    "xEnd": 11,
+                                    "zEnd": 17
+                                },
+                                {
+                                    "xStart": 45,
+                                    "zStart": 16,
+                                    "xEnd": 63,
+                                    "zEnd": 31
+                                },
+                                {
+                                    "xStart": 27,
+                                    "zStart": 24,
+                                    "xEnd": 44,
+                                    "zEnd": 31
+                                }
+                            ]
+                        },
+                        {
+                            "name": "tail2",
+                            "regions": [
+                                {
+                                    "xStart": 0,
+                                    "zStart": 10,
+                                    "xEnd": 11,
+                                    "zEnd": 15
+                                },
+                                {
+                                    "xStart": 24,
+                                    "zStart": 10,
+                                    "xEnd": 35,
+                                    "zEnd": 15
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Frame 21",
+                    "groups": [
+                        {
+                            "name": "Group",
+                            "regions": [
+                                {
+                                    "xStart": 6,
+                                    "zStart": 0,
+                                    "xEnd": 24,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 2,
+                                    "zStart": 16,
+                                    "xEnd": 11,
+                                    "zEnd": 17
+                                },
+                                {
+                                    "xStart": 45,
+                                    "zStart": 16,
+                                    "xEnd": 63,
+                                    "zEnd": 31
+                                },
+                                {
+                                    "xStart": 27,
+                                    "zStart": 24,
+                                    "xEnd": 44,
+                                    "zEnd": 31
+                                }
+                            ]
+                        },
+                        {
+                            "name": "tail1",
+                            "regions": [
+                                {
+                                    "xStart": 12,
+                                    "zStart": 10,
+                                    "xEnd": 35,
+                                    "zEnd": 15
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Frame 22",
+                    "groups": [
+                        {
+                            "name": "Group",
+                            "regions": [
+                                {
+                                    "xStart": 6,
+                                    "zStart": 0,
+                                    "xEnd": 24,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 2,
+                                    "zStart": 16,
+                                    "xEnd": 11,
+                                    "zEnd": 17
+                                },
+                                {
+                                    "xStart": 45,
+                                    "zStart": 16,
+                                    "xEnd": 63,
+                                    "zEnd": 31
+                                },
+                                {
+                                    "xStart": 27,
+                                    "zStart": 24,
+                                    "xEnd": 44,
+                                    "zEnd": 31
+                                }
+                            ]
+                        },
+                        {
+                            "name": "tail2",
+                            "regions": [
+                                {
+                                    "xStart": 0,
+                                    "zStart": 10,
+                                    "xEnd": 11,
+                                    "zEnd": 15
+                                },
+                                {
+                                    "xStart": 24,
+                                    "zStart": 10,
+                                    "xEnd": 35,
+                                    "zEnd": 15
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Frame 23",
+                    "groups": [
+                        {
+                            "name": "Group",
+                            "regions": [
+                                {
+                                    "xStart": 6,
+                                    "zStart": 0,
+                                    "xEnd": 24,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 2,
+                                    "zStart": 16,
+                                    "xEnd": 11,
+                                    "zEnd": 17
+                                },
+                                {
+                                    "xStart": 45,
+                                    "zStart": 16,
+                                    "xEnd": 63,
+                                    "zEnd": 31
+                                },
+                                {
+                                    "xStart": 27,
+                                    "zStart": 24,
+                                    "xEnd": 44,
+                                    "zEnd": 31
+                                }
+                            ]
+                        },
+                        {
+                            "name": "tail3",
+                            "regions": [
+                                {
+                                    "xStart": 0,
+                                    "zStart": 10,
+                                    "xEnd": 23,
+                                    "zEnd": 15
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Frame 24",
+                    "groups": [
+                        {
+                            "name": "Group",
+                            "regions": [
+                                {
+                                    "xStart": 6,
+                                    "zStart": 0,
+                                    "xEnd": 24,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 2,
+                                    "zStart": 16,
+                                    "xEnd": 11,
+                                    "zEnd": 17
+                                },
+                                {
+                                    "xStart": 45,
+                                    "zStart": 16,
+                                    "xEnd": 63,
+                                    "zEnd": 31
+                                },
+                                {
+                                    "xStart": 27,
+                                    "zStart": 24,
+                                    "xEnd": 44,
+                                    "zEnd": 31
+                                }
+                            ]
+                        },
+                        {
+                            "name": "tail2",
+                            "regions": [
+                                {
+                                    "xStart": 0,
+                                    "zStart": 10,
+                                    "xEnd": 11,
+                                    "zEnd": 15
+                                },
+                                {
+                                    "xStart": 24,
+                                    "zStart": 10,
+                                    "xEnd": 35,
+                                    "zEnd": 15
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Frame 25",
+                    "groups": [
+                        {
+                            "name": "Group",
+                            "regions": [
+                                {
+                                    "xStart": 6,
+                                    "zStart": 0,
+                                    "xEnd": 24,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 2,
+                                    "zStart": 16,
+                                    "xEnd": 11,
+                                    "zEnd": 17
+                                },
+                                {
+                                    "xStart": 45,
+                                    "zStart": 16,
+                                    "xEnd": 63,
+                                    "zEnd": 31
+                                },
+                                {
+                                    "xStart": 27,
+                                    "zStart": 24,
+                                    "xEnd": 44,
+                                    "zEnd": 31
+                                }
+                            ]
+                        },
+                        {
+                            "name": "tail1",
+                            "regions": [
+                                {
+                                    "xStart": 12,
+                                    "zStart": 10,
+                                    "xEnd": 35,
+                                    "zEnd": 15
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Frame 26",
+                    "groups": [
+                        {
+                            "name": "Group",
+                            "regions": [
+                                {
+                                    "xStart": 6,
+                                    "zStart": 0,
+                                    "xEnd": 24,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 2,
+                                    "zStart": 16,
+                                    "xEnd": 11,
+                                    "zEnd": 17
+                                },
+                                {
+                                    "xStart": 45,
+                                    "zStart": 16,
+                                    "xEnd": 63,
+                                    "zEnd": 31
+                                },
+                                {
+                                    "xStart": 27,
+                                    "zStart": 24,
+                                    "xEnd": 44,
+                                    "zEnd": 31
+                                }
+                            ]
+                        },
+                        {
+                            "name": "tail2",
+                            "regions": [
+                                {
+                                    "xStart": 0,
+                                    "zStart": 10,
+                                    "xEnd": 11,
+                                    "zEnd": 15
+                                },
+                                {
+                                    "xStart": 24,
+                                    "zStart": 10,
+                                    "xEnd": 35,
+                                    "zEnd": 15
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Frame 27",
+                    "groups": [
+                        {
+                            "name": "Group",
+                            "regions": [
+                                {
+                                    "xStart": 6,
+                                    "zStart": 0,
+                                    "xEnd": 24,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 2,
+                                    "zStart": 16,
+                                    "xEnd": 11,
+                                    "zEnd": 17
+                                },
+                                {
+                                    "xStart": 45,
+                                    "zStart": 16,
+                                    "xEnd": 63,
+                                    "zEnd": 31
+                                },
+                                {
+                                    "xStart": 27,
+                                    "zStart": 24,
+                                    "xEnd": 44,
+                                    "zEnd": 31
+                                }
+                            ]
+                        },
+                        {
+                            "name": "tail3",
+                            "regions": [
+                                {
+                                    "xStart": 0,
+                                    "zStart": 10,
+                                    "xEnd": 23,
+                                    "zEnd": 15
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Frame 28",
+                    "groups": [
+                        {
+                            "name": "Group",
+                            "regions": [
+                                {
+                                    "xStart": 6,
+                                    "zStart": 0,
+                                    "xEnd": 24,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 2,
+                                    "zStart": 16,
+                                    "xEnd": 11,
+                                    "zEnd": 17
+                                },
+                                {
+                                    "xStart": 45,
+                                    "zStart": 16,
+                                    "xEnd": 63,
+                                    "zEnd": 31
+                                },
+                                {
+                                    "xStart": 27,
+                                    "zStart": 24,
+                                    "xEnd": 44,
+                                    "zEnd": 31
+                                }
+                            ]
+                        },
+                        {
+                            "name": "tail2",
+                            "regions": [
+                                {
+                                    "xStart": 0,
+                                    "zStart": 10,
+                                    "xEnd": 11,
+                                    "zEnd": 15
+                                },
+                                {
+                                    "xStart": 24,
+                                    "zStart": 10,
+                                    "xEnd": 35,
+                                    "zEnd": 15
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Frame 29",
+                    "groups": [
+                        {
+                            "name": "Group",
+                            "regions": [
+                                {
+                                    "xStart": 6,
+                                    "zStart": 0,
+                                    "xEnd": 24,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 2,
+                                    "zStart": 16,
+                                    "xEnd": 11,
+                                    "zEnd": 17
+                                },
+                                {
+                                    "xStart": 45,
+                                    "zStart": 16,
+                                    "xEnd": 63,
+                                    "zEnd": 31
+                                },
+                                {
+                                    "xStart": 27,
+                                    "zStart": 24,
+                                    "xEnd": 44,
+                                    "zEnd": 31
+                                }
+                            ]
+                        },
+                        {
+                            "name": "tail1",
+                            "regions": [
+                                {
+                                    "xStart": 12,
+                                    "zStart": 10,
+                                    "xEnd": 35,
+                                    "zEnd": 15
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Frame 30",
+                    "groups": [
+                        {
+                            "name": "Group",
+                            "regions": [
+                                {
+                                    "xStart": 6,
+                                    "zStart": 0,
+                                    "xEnd": 24,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 2,
+                                    "zStart": 16,
+                                    "xEnd": 11,
+                                    "zEnd": 17
+                                },
+                                {
+                                    "xStart": 45,
+                                    "zStart": 16,
+                                    "xEnd": 63,
+                                    "zEnd": 31
+                                },
+                                {
+                                    "xStart": 27,
+                                    "zStart": 24,
+                                    "xEnd": 44,
+                                    "zEnd": 31
+                                }
+                            ]
+                        },
+                        {
+                            "name": "tail2",
+                            "regions": [
+                                {
+                                    "xStart": 0,
+                                    "zStart": 10,
+                                    "xEnd": 11,
+                                    "zEnd": 15
+                                },
+                                {
+                                    "xStart": 24,
+                                    "zStart": 10,
+                                    "xEnd": 35,
+                                    "zEnd": 15
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Frame 31",
+                    "groups": [
+                        {
+                            "name": "Group",
+                            "regions": [
+                                {
+                                    "xStart": 6,
+                                    "zStart": 0,
+                                    "xEnd": 24,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 2,
+                                    "zStart": 16,
+                                    "xEnd": 11,
+                                    "zEnd": 17
+                                },
+                                {
+                                    "xStart": 45,
+                                    "zStart": 16,
+                                    "xEnd": 63,
+                                    "zEnd": 31
+                                },
+                                {
+                                    "xStart": 27,
+                                    "zStart": 24,
+                                    "xEnd": 44,
+                                    "zEnd": 31
+                                }
+                            ]
+                        },
+                        {
+                            "name": "tail3",
+                            "regions": [
+                                {
+                                    "xStart": 0,
+                                    "zStart": 10,
+                                    "xEnd": 23,
+                                    "zEnd": 15
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Frame 32",
+                    "groups": [
+                        {
+                            "name": "Group",
+                            "regions": [
+                                {
+                                    "xStart": 6,
+                                    "zStart": 0,
+                                    "xEnd": 24,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 2,
+                                    "zStart": 16,
+                                    "xEnd": 11,
+                                    "zEnd": 17
+                                },
+                                {
+                                    "xStart": 45,
+                                    "zStart": 16,
+                                    "xEnd": 63,
+                                    "zEnd": 31
+                                },
+                                {
+                                    "xStart": 27,
+                                    "zStart": 24,
+                                    "xEnd": 44,
+                                    "zEnd": 31
+                                }
+                            ]
+                        },
+                        {
+                            "name": "tail2",
+                            "regions": [
+                                {
+                                    "xStart": 0,
+                                    "zStart": 10,
+                                    "xEnd": 11,
+                                    "zEnd": 15
+                                },
+                                {
+                                    "xStart": 24,
+                                    "zStart": 10,
+                                    "xEnd": 35,
+                                    "zEnd": 15
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "model": "baby_rabbit_sleeping",
+            "animation": {
+                "frametime": 10,
+                "width": 64,
+                "height": 32
+            },
+            "mappings": [
+                {
+                    "srcX": 0,
+                    "srcY": 0,
+                    "width": 8,
+                    "height": 5,
+                    "destX": 0,
+                    "destY": 0
+                },
+                {
+                    "srcX": 0,
+                    "srcY": 0,
+                    "width": 8,
+                    "height": 5,
+                    "destX": 6,
+                    "destY": 0
+                },
+                {
+                    "srcX": 0,
+                    "srcY": 0,
+                    "width": 8,
+                    "height": 5,
+                    "destX": 12,
+                    "destY": 0
+                },
+                {
+                    "srcX": 0,
+                    "srcY": 0,
+                    "width": 8,
+                    "height": 5,
+                    "destX": 18,
+                    "destY": 0
+                },
+                {
+                    "srcX": 0,
+                    "srcY": 5,
+                    "width": 6,
+                    "height": 5,
+                    "destX": 0,
+                    "destY": 5
+                },
+                {
+                    "srcX": 0,
+                    "srcY": 5,
+                    "width": 6,
+                    "height": 5,
+                    "destX": 6,
+                    "destY": 5
+                },
+                {
+                    "srcX": 0,
+                    "srcY": 5,
+                    "width": 6,
+                    "height": 5,
+                    "destX": 12,
+                    "destY": 5
+                },
+                {
+                    "srcX": 0,
+                    "srcY": 5,
+                    "width": 6,
+                    "height": 5,
+                    "destX": 18,
+                    "destY": 5
+                },
+                {
+                    "srcX": 0,
+                    "srcY": 10,
+                    "width": 12,
+                    "height": 6,
+                    "destX": 0,
+                    "destY": 10
+                },
+                {
+                    "srcX": 0,
+                    "srcY": 17,
+                    "width": 2,
+                    "height": 1,
+                    "destX": 0,
+                    "destY": 16
+                },
+                {
+                    "srcX": 0,
+                    "srcY": 17,
+                    "width": 2,
+                    "height": 1,
+                    "destX": 2,
+                    "destY": 16
+                },
+                {
+                    "srcX": 0,
+                    "srcY": 17,
+                    "width": 2,
+                    "height": 1,
+                    "destX": 4,
+                    "destY": 16
+                },
+                {
+                    "srcX": 0,
+                    "srcY": 17,
+                    "width": 2,
+                    "height": 1,
+                    "destX": 6,
+                    "destY": 16
+                },
+                {
+                    "srcX": 27,
+                    "srcY": 16,
+                    "width": 18,
+                    "height": 8,
+                    "destX": 27,
+                    "destY": 16
+                },
+                {
+                    "srcX": 27,
+                    "srcY": 16,
+                    "width": 18,
+                    "height": 8,
+                    "destX": 27,
+                    "destY": 24
+                },
+                {
+                    "srcX": 27,
+                    "srcY": 16,
+                    "width": 18,
+                    "height": 8,
+                    "destX": 46,
+                    "destY": 16
+                },
+                {
+                    "srcX": 27,
+                    "srcY": 16,
+                    "width": 18,
+                    "height": 8,
+                    "destX": 46,
+                    "destY": 24
+                },
+                {
+                    "srcX": 39,
+                    "srcY": 0,
+                    "width": 25,
+                    "height": 10,
+                    "destX": 39,
+                    "destY": 0
+                },
+                {
+                    "srcX": 0,
+                    "srcY": 19,
+                    "width": 23,
+                    "height": 13,
+                    "destX": 0,
+                    "destY": 19
+                }
+            ],
+            "frames": [
+                {
+                    "name": "Frame 1",
+                    "groups": [
+                        {
+                            "name": "Group",
+                            "regions": [
+                                {
+                                    "xStart": 6,
+                                    "zStart": 0,
+                                    "xEnd": 23,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 2,
+                                    "zStart": 17,
+                                    "xEnd": 7,
+                                    "zEnd": 16
+                                },
+                                {
+                                    "xStart": 39,
+                                    "zStart": 1,
+                                    "xEnd": 63,
+                                    "zEnd": 8
+                                },
+                                {
+                                    "xStart": 27,
+                                    "zStart": 24,
+                                    "xEnd": 63,
+                                    "zEnd": 31
+                                },
+                                {
+                                    "xStart": 46,
+                                    "zStart": 16,
+                                    "xEnd": 63,
+                                    "zEnd": 23
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Frame 2",
+                    "groups": [
+                        {
+                            "name": "Group",
+                            "regions": [
+                                {
+                                    "xStart": 0,
+                                    "zStart": 0,
+                                    "xEnd": 5,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 12,
+                                    "zStart": 0,
+                                    "xEnd": 23,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 0,
+                                    "zStart": 16,
+                                    "xEnd": 1,
+                                    "zEnd": 16
+                                },
+                                {
+                                    "xStart": 4,
+                                    "zStart": 16,
+                                    "xEnd": 7,
+                                    "zEnd": 16
+                                },
+                                {
+                                    "xStart": 46,
+                                    "zStart": 0,
+                                    "xEnd": 62,
+                                    "zEnd": 8
+                                },
+                                {
+                                    "xStart": 46,
+                                    "zStart": 16,
+                                    "xEnd": 63,
+                                    "zEnd": 31
+                                },
+                                {
+                                    "xStart": 27,
+                                    "zStart": 16,
+                                    "xEnd": 44,
+                                    "zEnd": 23
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Frame 3",
+                    "groups": [
+                        {
+                            "name": "Group",
+                            "regions": [
+                                {
+                                    "xStart": 0,
+                                    "zStart": 0,
+                                    "xEnd": 11,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 18,
+                                    "zStart": 0,
+                                    "xEnd": 23,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 0,
+                                    "zStart": 17,
+                                    "xEnd": 3,
+                                    "zEnd": 16
+                                },
+                                {
+                                    "xStart": 6,
+                                    "zStart": 17,
+                                    "xEnd": 7,
+                                    "zEnd": 16
+                                },
+                                {
+                                    "xStart": 39,
+                                    "zStart": 1,
+                                    "xEnd": 44,
+                                    "zEnd": 8
+                                },
+                                {
+                                    "xStart": 59,
+                                    "zStart": 1,
+                                    "xEnd": 63,
+                                    "zEnd": 5
+                                },
+                                {
+                                    "xStart": 46,
+                                    "zStart": 24,
+                                    "xEnd": 63,
+                                    "zEnd": 31
+                                },
+                                {
+                                    "xStart": 27,
+                                    "zStart": 15,
+                                    "xEnd": 44,
+                                    "zEnd": 31
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Frame 4",
+                    "groups": [
+                        {
+                            "name": "Group",
+                            "regions": [
+                                {
+                                    "xStart": 0,
+                                    "zStart": 0,
+                                    "xEnd": 17,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 0,
+                                    "zStart": 17,
+                                    "xEnd": 5,
+                                    "zEnd": 16
+                                },
+                                {
+                                    "xStart": 39,
+                                    "zStart": 1,
+                                    "xEnd": 44,
+                                    "zEnd": 8
+                                },
+                                {
+                                    "xStart": 46,
+                                    "zStart": 16,
+                                    "xEnd": 63,
+                                    "zEnd": 23
+                                },
+                                {
+                                    "xStart": 27,
+                                    "zStart": 15,
+                                    "xEnd": 44,
+                                    "zEnd": 31
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Frame 5",
+                    "groups": [
+                        {
+                            "name": "Group",
+                            "regions": [
+                                {
+                                    "xStart": 0,
+                                    "zStart": 0,
+                                    "xEnd": 11,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 18,
+                                    "zStart": 0,
+                                    "xEnd": 23,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 0,
+                                    "zStart": 17,
+                                    "xEnd": 3,
+                                    "zEnd": 16
+                                },
+                                {
+                                    "xStart": 6,
+                                    "zStart": 17,
+                                    "xEnd": 7,
+                                    "zEnd": 16
+                                },
+                                {
+                                    "xStart": 39,
+                                    "zStart": 0,
+                                    "xEnd": 51,
+                                    "zEnd": 8
+                                },
+                                {
+                                    "xStart": 46,
+                                    "zStart": 24,
+                                    "xEnd": 63,
+                                    "zEnd": 31
+                                },
+                                {
+                                    "xStart": 27,
+                                    "zStart": 15,
+                                    "xEnd": 44,
+                                    "zEnd": 31
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Frame 6",
+                    "groups": [
+                        {
+                            "name": "Group",
+                            "regions": [
+                                {
+                                    "xStart": 0,
+                                    "zStart": 0,
+                                    "xEnd": 5,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 12,
+                                    "zStart": 0,
+                                    "xEnd": 23,
+                                    "zEnd": 9
+                                },
+                                {
+                                    "xStart": 0,
+                                    "zStart": 17,
+                                    "xEnd": 1,
+                                    "zEnd": 16
+                                },
+                                {
+                                    "xStart": 4,
+                                    "zStart": 17,
+                                    "xEnd": 7,
+                                    "zEnd": 16
+                                },
+                                {
+                                    "xStart": 39,
+                                    "zStart": 1,
+                                    "xEnd": 57,
+                                    "zEnd": 8
+                                },
+                                {
+                                    "xStart": 46,
+                                    "zStart": 16,
+                                    "xEnd": 63,
+                                    "zEnd": 31
+                                },
+                                {
+                                    "xStart": 27,
+                                    "zStart": 16,
+                                    "xEnd": 44,
+                                    "zEnd": 23
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "definition": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:time",
+        "source": "daytime",
+        "wobble": false,
+        "entries": [
+            {
+                "threshold": 0,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "$model"
+                }
+            },
+            {
+                "threshold": 0.25,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "supermodel:item/palm/$id/baby_rabbit_sleeping"
+                }
+            },
+            {
+                "threshold": 0.8,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "$model"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "$model"
+        }
+    }
+}

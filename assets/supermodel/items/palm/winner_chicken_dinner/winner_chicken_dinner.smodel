@@ -1,0 +1,9 @@
+{
+  "type": "cooked_chicken",
+  "model": "winner_chicken_dinner",
+  "textures": {
+    "0": "winner_chicken_dinner",
+    "1": "steam",
+    "particle": "chicken_particle"
+  }
+}

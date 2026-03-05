@@ -1,0 +1,99 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [32, 32],
+	"texture": "wizard_hat.png",
+	"models": [
+		{
+			"part": "left_arm",
+			"id": "left_arm",
+			"invertAxis": "xy",
+			"translate": [5, -22, 0]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"translate": [1.9, -12, 0]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [-1.9, -12, 0]
+		},
+		{
+			"part": "right_arm",
+			"id": "right_arm",
+			"invertAxis": "xy",
+			"translate": [-5, -22, 0]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0]
+		},
+		{
+			"part": "headwear",
+			"id": "headwear",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0]
+		},
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{
+					"coordinates": [-4, 24, -4, 8, 8, 8],
+					"uvNorth": [32, 32, 31, 31],
+					"uvEast": [32, 32, 31, 31],
+					"uvSouth": [32, 32, 31, 31],
+					"uvWest": [32, 32, 31, 31],
+					"uvUp": [32, 32, 31, 31],
+					"uvDown": [32, 32, 31, 31],
+					"sizeAdd": 1
+				}
+			],
+			"submodels": [
+				{
+					"id": "hat",
+					"invertAxis": "xy",
+					"translate": [0, 19.5, 0],
+					"boxes": [
+						{
+							"coordinates": [-6, 10, -6, 12, 1, 12],
+							"uvNorth": [0, 12, 12, 13],
+							"uvEast": [0, 13, 12, 14],
+							"uvSouth": [0, 13, 12, 14],
+							"uvWest": [0, 13, 12, 14],
+							"uvUp": [12, 12, 0, 0],
+							"uvDown": [12, 0, 0, 12]
+						},
+						{
+							"coordinates": [-4, 11, -4, 8, 8, 8],
+							"uvNorth": [20, 0, 28, 7],
+							"uvEast": [20, 7, 28, 14],
+							"uvSouth": [20, 0, 28, 7],
+							"uvWest": [20, 7, 28, 14],
+							"uvUp": [20, 8, 12, 0],
+							"uvDown": [32, 0, 28, 4]
+						},
+						{
+							"coordinates": [-4, 11, -4, 8, 2, 8],
+							"uvNorth": [12, 16, 20, 18],
+							"uvEast": [12, 16, 20, 18],
+							"uvSouth": [12, 16, 20, 18],
+							"uvWest": [12, 16, 20, 18],
+							"uvUp": [20, 16, 12, 8],
+							"uvDown": [20, 8, 12, 16],
+							"sizeAdd": 0.5
+						}
+					]
+				}
+			]
+		}
+	]
+}

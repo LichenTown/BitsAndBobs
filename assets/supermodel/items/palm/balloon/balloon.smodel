@@ -1,0 +1,54 @@
+{
+  "type": "paper",
+  "model": "balloon",
+  "models": [
+    "balloon_tied_left",
+    "balloon_tied_right"
+  ],
+  "variants": [
+    "red",
+    "orange",
+    "yellow",
+    "lime",
+    "green",
+    "cyan",
+    "light_blue",
+    "blue",
+    "purple",
+    "magenta",
+    "pink",
+    "white",
+    "light_gray",
+    "gray",
+    "black",
+    "brown"
+  ],
+  "definition": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "$folder/balloon_tied_right"
+        },
+        "when": [
+          "thirdperson_righthand"
+        ]
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "$folder/balloon_tied_left"
+        },
+        "when": [
+          "thirdperson_lefthand"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "$model"
+    },
+    "property": "minecraft:display_context"
+  }
+}

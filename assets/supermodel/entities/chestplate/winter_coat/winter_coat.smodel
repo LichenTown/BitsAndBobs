@@ -1,5 +1,5 @@
 {
-  "type": "chestplate",
+  "type": "player_slim_chestplate",
   "properties": {
     "nbt.^.equipment.chest.components": "ipattern:*custom_model_data\"\\:{floats:[6051397.0f]}*"
   }

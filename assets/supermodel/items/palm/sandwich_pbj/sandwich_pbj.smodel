@@ -1,0 +1,21 @@
+{
+  "types": [
+    "baked_potato",
+    "bread",
+    "cooked_beef",
+    "cooked_chicken",
+    "cooked_mutton",
+    "cooked_porkchop",
+    "cooked_rabbit",
+    "cooked_salmon",
+    "golden_carrot",
+    "pumpkin_pie"
+  ],
+  "model": "sandwich_pbj",
+  "textures": {
+    "0": "bread",
+    "1": "peanut_butter",
+    "2": "grape_jelly",
+    "particle": "particle"
+  }
+}
