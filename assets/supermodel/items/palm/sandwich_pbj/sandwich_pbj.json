@@ -5,7 +5,7 @@
 	"textures": {
 		"0": "bread",
 		"1": "peanut_butter",
-		"2": "jelly",
+		"2": "grape_jelly",
 		"particle": "bread"
 	},
 	"elements": [
@@ -23,9 +23,9 @@
 			}
 		},
 		{
-			"from": [4, 2, 4],
-			"to": [12, 4, 12],
-			"rotation": {"angle": 0, "axis": "y", "origin": [7, 2, 7]},
+			"from": [4, 2.4, 4],
+			"to": [12, 4.4, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 2.4, 7]},
 			"faces": {
 				"north": {"uv": [4, 1, 8, 2], "texture": "#0"},
 				"east": {"uv": [8, 1, 4, 2], "texture": "#0"},
@@ -36,9 +36,9 @@
 			}
 		},
 		{
-			"from": [4.2, 1.5, 4.2],
-			"to": [11.8, 2, 11.8],
-			"rotation": {"angle": 0, "axis": "y", "origin": [7, 1.4, 7]},
+			"from": [4.2, 1.7, 4.2],
+			"to": [11.8, 2.4, 11.8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 2.1, 7]},
 			"faces": {
 				"north": {"uv": [0, 0, 16, 2], "texture": "#1"},
 				"east": {"uv": [0, 14, 16, 16], "texture": "#1"},
@@ -50,7 +50,7 @@
 		},
 		{
 			"from": [4.2, 1, 4.2],
-			"to": [11.8, 1.5, 11.8],
+			"to": [11.8, 1.7, 11.8],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7, 1, 7]},
 			"faces": {
 				"north": {"uv": [0, 0, 16, 2], "texture": "#2"},
@@ -65,23 +65,23 @@
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [0, -30, 0],
-			"translation": [0, 4.75, 0.75],
-			"scale": [0.6, 0.6, 0.6]
+			"translation": [0.25, 6, 0.75],
+			"scale": [0.7, 0.7, 0.7]
 		},
 		"thirdperson_lefthand": {
 			"rotation": [0, -30, 0],
-			"translation": [0, 4.75, 0.75],
-			"scale": [0.6, 0.6, 0.6]
+			"translation": [0.25, 6, 0.75],
+			"scale": [0.7, 0.7, 0.7]
 		},
 		"firstperson_righthand": {
 			"rotation": [0, -75, 0],
-			"translation": [-0.75, 6.5, 0.75],
-			"scale": [0.6, 0.6, 0.6]
+			"translation": [-0.75, 7.25, 0.75],
+			"scale": [0.7, 0.7, 0.7]
 		},
 		"firstperson_lefthand": {
 			"rotation": [0, -75, 0],
-			"translation": [-0.75, 6.5, 0.75],
-			"scale": [0.6, 0.6, 0.6]
+			"translation": [-0.75, 7.25, 0.75],
+			"scale": [0.7, 0.7, 0.7]
 		},
 		"ground": {
 			"rotation": [-15, -15, -15],
@@ -90,7 +90,7 @@
 		},
 		"gui": {
 			"rotation": [25, 25, 0],
-			"translation": [-0.25, 6.75, 0],
+			"translation": [-0.25, 6, 0],
 			"scale": [1.25, 1.25, 1.25]
 		},
 		"head": {

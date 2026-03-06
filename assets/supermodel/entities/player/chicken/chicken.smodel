@@ -1,4 +1,5 @@
 {
+  "enabled": false,
   "models": {
     "player_cape": "hide_cape",
     "player_slim": "chicken",
