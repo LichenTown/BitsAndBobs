@@ -51,8 +51,7 @@
 					"left_arm.sx": 0.75,
 					"left_arm.sy": 0.95,
 					"left_arm.ty": "left_arm.ty + 0.5",
-					"left_arm.tx": "left_arm.tx + 0.15",
-					"body.rx": "body.rx+left_arm.rx/8"
+					"left_arm.tx": "left_arm.tx + 0.15"
 				}
 			]
 		},

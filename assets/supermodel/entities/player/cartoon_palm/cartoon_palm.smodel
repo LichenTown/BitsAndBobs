@@ -1,4 +1,5 @@
 {
+  "enabled": false,
   "models": {
     "player_slim": "cartoon_palm",
     "helmet": "cartoon_helmet",
