@@ -1,0 +1,10 @@
+{
+  "type": "paper",
+  "model": "permit",
+  "textures": {
+    "0": "permit1",
+    "2": "permit2",
+    "3": "permit3",
+    "particle": "permit1"
+  }
+}
