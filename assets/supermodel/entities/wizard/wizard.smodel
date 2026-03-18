@@ -1,4 +1,5 @@
 {
+  "enabled": false,
   "models": {
     "player_slim_helmet": "wizard_helmet",
     "player_slim_chestplate": "wizard_chestplate",
