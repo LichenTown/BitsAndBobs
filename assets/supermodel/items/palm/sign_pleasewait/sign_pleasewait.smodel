@@ -1,0 +1,29 @@
+{
+  "type": "paper",
+  "model": "sign_pleasewait",
+  "texture": "sign_pleasewait",
+  "definition": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/oak_sign"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "thirdperson_lefthand",
+          "thirdperson_righthand",
+          "firstperson_lefthand",
+          "firstperson_righthand"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "$model"
+    },
+    "property": "minecraft:display_context"
+  }
+}
