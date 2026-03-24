@@ -1,0 +1,19 @@
+{
+  "models": {
+    "player_slim_helmet": "outfit_flower_helmet",
+    "player_slim_chestplate": "outfit_flower_chestplate",
+    "player_slim_leggings": "outfit_flower_leggings",
+    "player_slim": "outfit_flower_skin"
+  },
+  "textures": [
+    "outfit_flower_helmet.png",
+    "outfit_flower_chestplate.png",
+    "outfit_flower_leggings.png",
+    "outfit_flower_skin.png",
+    "outfit_flower_tool_belt.png"
+  ],
+  "properties": {
+    "nbt.^.equipment.legs.components": "raw:regex:.*\"minecraft:custom_name\".*Flower.*",
+    "names.^": "PalmMC"
+  }
+}

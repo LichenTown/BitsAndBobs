@@ -1,0 +1,12 @@
+{
+  "type": "honey_bottle",
+  "model": "iced_tea_glass",
+  "textures": {
+    "0": "glass",
+    "1": "iced_tea",
+    "2": "ice_cube",
+    "3": "lemon",
+    "4": "umbrella",
+    "particle": "iced_tea"
+  }
+}

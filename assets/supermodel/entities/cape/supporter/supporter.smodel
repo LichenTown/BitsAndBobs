@@ -4,7 +4,7 @@
     "elytra": "elytra"
   },
   "properties": {
-    "names.^": "PalmMC MBBQ davideo",
+    "names.^": "PalmMC tarpmt_ MBBQ davideo MasterOwen1",
     "nbt.^.equipment.chest.components": "raw:regex:.*\"minecraft:custom_name\".*Supporter.*"
   }
 }

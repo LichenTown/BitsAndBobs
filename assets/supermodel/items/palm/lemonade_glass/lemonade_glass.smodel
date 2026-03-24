@@ -1,0 +1,9 @@
+{
+  "type": "honey_bottle",
+  "model": "lemonade_glass",
+  "textures": {
+    "0": "glass",
+    "1": "lemonade",
+    "particle": "lemonade"
+  }
+}
