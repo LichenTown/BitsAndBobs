@@ -17,7 +17,7 @@
 				"east": {"uv": [7, 0, 14, 7], "texture": "#0"},
 				"south": {"uv": [7, 0, 14, 7], "texture": "#0"},
 				"west": {"uv": [7, 0, 14, 7], "texture": "#0"},
-				"up": {"uv": [21, 7, 14, 0], "texture": "#0"},
+				"up": {"uv": [14, 14, 7, 7], "texture": "#0"},
 				"down": {"uv": [14, 0, 7, 7], "texture": "#0"}
 			}
 		},
@@ -118,12 +118,14 @@
 		{
 			"name": "pot",
 			"origin": [8, 7, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [0, 1, 2]
 		},
 		{
 			"name": "plant",
 			"origin": [7, 10, 6],
+			"scope": 0,
 			"color": 0,
 			"children": [3, 4]
 		}
